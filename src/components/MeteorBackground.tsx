@@ -44,10 +44,10 @@ const MeteorBackground = () => {
     }
 
     // Create new meteors periodically
-    const interval = setInterval(createMeteor, 200);
+    // const interval = setInterval(createMeteor, 200);
 
     return () => {
-      clearInterval(interval);
+    //   clearInterval(interval);
     };
   }, [createMeteor]);
 
