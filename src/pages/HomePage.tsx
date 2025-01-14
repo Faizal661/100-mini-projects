@@ -10,8 +10,8 @@ import MeteorBackground from "../components/MeteorBackground";
         <MeteorBackground />
         <div className="container mx-auto px-4 py-8">
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold mb-4">100 Mini DOM Projects</h1>
-            <p className="text-gray-600 text-lg">
+            <h1 className="text-4xl font-bold mb-4 text-primaryDarkText ">100 Mini DOM Projects</h1>
+            <p className="text-secondaryDarkText text-lg">
               Explore 100 creative projects to practice HTML, CSS, and JavaScript
             </p>
           </div>
