@@ -44,16 +44,16 @@ const MeteorBackground = () => {
     }
 
     // Create new meteors periodically
-    // const interval = setInterval(createMeteor, 200);
+    const interval = setInterval(createMeteor, 200);
 
     return () => {
-    //   clearInterval(interval);
+      clearInterval(interval);
     };
   }, [createMeteor]);
 
   return (
     <>
-      <div className="fixed -z-50 inset-0 bg-gradient-to-br from-[#343436] via-[#221010] to-black overflow-hidden">
+      <div className="fixed -z-50 inset-0 bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e] overflow-hidden">
         <div id="meteorContainer" className="fixed w-full h-full" />
       </div>
       <style jsx global>{`
