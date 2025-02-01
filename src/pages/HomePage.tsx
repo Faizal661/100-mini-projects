@@ -12,7 +12,7 @@ const HomePage = () => {
             100 Mini Projects
           </h1>
           <p className="text-secondaryDarkText text-lg">
-            Explore 100 creative projects to practice HTML, CSS, and JavaScript
+            Explore 100 creative projects to practice React, HTML, CSS, and JavaScript
           </p>
         </div>
 

@@ -10,7 +10,7 @@ export const MovingCard: React.FC<MovingCardProps> = ({ project }) => {
   return (
     <div
       ref={cardRef}
-      className="bg-transparent p-4 rounded-md cursor-pointer shadow-xl transition-all duration-300 hover:bg-slate-900  hover:scale-125 hover:-skew-y-2"
+      className="bg-transparent p-4 rounded-md cursor-pointer shadow-xl transition-all duration-300 hover:bg-slate-900  hover:scale-110 hover:-skew-x-2"
       onClick={() => console.log(`Navigate to project ${project.id}`)}
     >
       <div className="transform transition-transform duration-200">
