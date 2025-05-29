@@ -152,4 +152,18 @@
 99. 👀 Create a **"follow me" effect** with animated eyes.
 100. 🎉 Make a **"Happy Birthday" animation** with balloons and text.
 
+---
+
+## **Implemented Mini-Projects**
+
+### **1. Liked Emoji Button**
+
+This project demonstrates a common social media interaction: clicking a "Like" button on a post triggers a visual confirmation, in this case, a "❤️" emoji appearing over the post's image.
+
+*   **Functionality:**
+    *   Clicking the "Like" button toggles its state (Like/Liked).
+    *   When liked, a heart emoji briefly appears and fades over the post image.
+*   **Collection:** This is project #1 from the "100 Mini Projects" collection.
+*   **Access:** You can view this project by navigating to `/project/1`.
+
 
