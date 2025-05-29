@@ -9,6 +9,7 @@ import { ArrowLeft } from "lucide-react"
 
 // Import project components
 import BouncingBall from "../projects/BouncingBall"
+import LikedEmojiPost from "../projects/LikedEmojiPost";
 
 const ProjectPage = () => {
   const { id } = useParams()
@@ -36,6 +37,8 @@ const ProjectPage = () => {
 
     // Map project IDs to their respective components
     switch (project.id) {
+      case 1: // Liked Emoji Post
+        return <LikedEmojiPost />;
       case 41: // Bouncing Ball
         return <BouncingBall />
       // Add more cases for other projects
