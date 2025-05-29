@@ -1,4 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from "react";
+import {
+  FaComment,
+  FaShareAlt,
+  FaBookmark,
+  FaEllipsisH,
+  FaHeart,
+} from "react-icons/fa";
 
 const LikedEmojiPost: React.FC = () => {
   const [isLiked, setIsLiked] = useState(false);
@@ -15,53 +22,61 @@ const LikedEmojiPost: React.FC = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-5">
-      {/* Header */}
-      <div className="p-8">
+    <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
+      <div className="p-2">
         <div className="flex items-center">
           <img
             className="h-10 w-10 rounded-full"
-            src="https://via.placeholder.com/40"
+            src="https://tse4.mm.bing.net/th?id=OIP.y_-RrO81dmnPR5dKO0GYWAHaHa&pid=Api&P=0&h=180"
             alt="Profile"
           />
           <div className="ml-4">
-            <div className="text-sm font-semibold text-gray-900">User Name</div>
-            <div className="text-sm text-gray-500">October 26, 2023</div>
+            <div className="text-sm font-semibold text-gray-900">Faizal </div>
+            <div className="text-xs text-gray-500">October 26, 2023</div>
           </div>
         </div>
       </div>
 
-      {/* Image */}
-      <div className="relative">
+      <div
+        className={`relative hover:cursor-pointer ${
+          showEmoji ? "z-50 bg-black" : ""
+        }`}
+        onDoubleClick={handleLike}
+      >
         <img
-          className="w-full h-auto"
-          src="https://via.placeholder.com/600x400"
-          alt="Post content"
+          className="w-full h-auto bg-black"
+          src="https://tse4.mm.bing.net/th?id=OIP.g-ap368Nhcw6EAgYF_BV0gHaEK&pid=Api&P=0&h=180"
+          alt="Post image"
         />
         <div
-          className={`text-6xl text-red-500 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-opacity duration-500 ease-in-out ${
-            showEmoji ? 'opacity-100' : 'opacity-0'
+          className={`text-[7rem] text-red-500 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-opacity duration-500 ease-in-out ${
+            showEmoji ? "opacity-100 " : "opacity-0"
           }`}
         >
           ❤️
         </div>
       </div>
 
-      {/* Action Buttons */}
-      <div className="p-8">
-        <div className="flex justify-between items-center">
+      <div className="p-4">
+        <div className="flex justify-between items-center px-2">
           <button
             onClick={handleLike}
-            className={`${
-              isLiked ? 'text-red-500' : 'text-blue-500'
-            } hover:text-blue-700`}
+            className={`${isLiked ? "text-red-500" : ""} hover:text-slate-500`}
           >
-            {isLiked ? 'Liked' : 'Like'}
+            {isLiked ? <FaHeart size={20} /> : <FaHeart size={20} />}
           </button>
-          <button className="text-gray-500 hover:text-gray-700">Comment</button>
-          <button className="text-gray-500 hover:text-gray-700">Share</button>
-          <button className="text-gray-500 hover:text-gray-700">Save</button>
-          <button className="text-gray-500 hover:text-gray-700">Options</button>
+          <button className="hover:text-slate-500">
+            <FaComment size={20} />
+          </button>
+          <button className="hover:text-slate-500">
+            <FaShareAlt size={20} />
+          </button>
+          <button className="hover:text-slate-500">
+            <FaBookmark size={20} />
+          </button>
+          <button className="hover:text-slate-500">
+            <FaEllipsisH size={20} />{" "}
+          </button>
         </div>
       </div>
     </div>

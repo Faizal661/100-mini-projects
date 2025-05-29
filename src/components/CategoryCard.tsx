@@ -10,7 +10,6 @@ export const CategoryCard = ({ category }: { category: Category }) => {
           {category.projects.map((project) => (
             <>
              <MovingCard key={project.id} project={project} />
-           
             </>
           ))}
         </div>

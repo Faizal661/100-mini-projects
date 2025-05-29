@@ -11,6 +11,7 @@ export const categories: Category[] = [
         title: "Liked Emoji Button",
         emoji: "🎉",
         description: "Show a 'Liked' emoji when clicking a button",
+        completed: true,
       },
       {
         id: 2,
@@ -281,6 +282,7 @@ export const categories: Category[] = [
         title: "Bouncing Ball",
         emoji: "🏀",
         description: "Create a bouncing ball animation",
+        completed: true,
       },
       {
         id: 42,
@@ -472,7 +474,6 @@ export const categories: Category[] = [
       },
     ],
   },
-  // ... (previous categories remain the same)
   {
     id: 8,
     title: "Interactive Widgets",
@@ -482,63 +483,63 @@ export const categories: Category[] = [
         id: 71,
         title: "Moving Clock",
         emoji: "⏰",
-        description: "Create a clock with moving hands"
+        description: "Create a clock with moving hands",
       },
       {
         id: 72,
         title: "Stopwatch",
         emoji: "⏱️",
-        description: "Build a stopwatch with start, stop, and reset buttons"
+        description: "Build a stopwatch with start, stop, and reset buttons",
       },
       {
         id: 73,
         title: "Theme Toggle",
         emoji: "🌙",
-        description: "Implement a light/dark mode toggle button"
+        description: "Implement a light/dark mode toggle button",
       },
       {
         id: 74,
         title: "Dynamic Calendar",
         emoji: "📅",
-        description: "Create a dynamic calendar with CSS and JavaScript"
+        description: "Create a dynamic calendar with CSS and JavaScript",
       },
       {
         id: 75,
         title: "Star Rating",
         emoji: "⭐",
-        description: "Build a star rating widget"
+        description: "Build a star rating widget",
       },
       {
         id: 76,
         title: "Draggable Slider",
         emoji: "🎚️",
-        description: "Create a draggable slider to adjust a value"
+        description: "Create a draggable slider to adjust a value",
       },
       {
         id: 77,
         title: "Todo List",
         emoji: "✅",
-        description: "Make a to-do list with add/remove animations"
+        description: "Make a to-do list with add/remove animations",
       },
       {
         id: 78,
         title: "Search Bar",
         emoji: "🔍",
-        description: "Build a search bar with an expanding animation"
+        description: "Build a search bar with an expanding animation",
       },
       {
         id: 79,
         title: "Currency Converter",
         emoji: "💱",
-        description: "Create a currency converter with a dropdown"
+        description: "Create a currency converter with a dropdown",
       },
       {
         id: 80,
         title: "Color Picker",
         emoji: "🎨",
-        description: "Build a small color picker widget"
-      }
-    ]
+        description: "Build a small color picker widget",
+      },
+    ],
   },
   {
     id: 9,
@@ -549,63 +550,63 @@ export const categories: Category[] = [
         id: 81,
         title: "Click Counter",
         emoji: "🔢",
-        description: "Build a click counter that keeps track of clicks"
+        description: "Build a click counter that keeps track of clicks",
       },
       {
         id: 82,
         title: "Tic Tac Toe",
         emoji: "❌",
-        description: "Create a simple tic-tac-toe game"
+        description: "Create a simple tic-tac-toe game",
       },
       {
         id: 83,
         title: "Dice Roller",
         emoji: "🎲",
-        description: "Make a dice roller that displays random dice faces"
+        description: "Make a dice roller that displays random dice faces",
       },
       {
         id: 84,
         title: "Rock Paper Scissors",
         emoji: "✌️",
-        description: "Create a rock-paper-scissors game"
+        description: "Create a rock-paper-scissors game",
       },
       {
         id: 85,
         title: "Memory Game",
         emoji: "🃏",
-        description: "Build a simple memory card flip game"
+        description: "Build a simple memory card flip game",
       },
       {
         id: 86,
         title: "Balloon Pop",
         emoji: "🎈",
-        description: "Make a balloon-popping game on click"
+        description: "Make a balloon-popping game on click",
       },
       {
         id: 87,
         title: "Whack-a-Mole",
         emoji: "🛠️",
-        description: "Create a Whack-a-Mole game"
+        description: "Create a Whack-a-Mole game",
       },
       {
         id: 88,
         title: "Find Difference",
         emoji: "🔍",
-        description: "Build a 'Find the Difference' puzzle game"
+        description: "Build a 'Find the Difference' puzzle game",
       },
       {
         id: 89,
         title: "Reaction Timer",
         emoji: "🕒",
-        description: "Implement a reaction time tester"
+        description: "Implement a reaction time tester",
       },
       {
         id: 90,
         title: "Maze Game",
         emoji: "🧩",
-        description: "Create a maze game where the user navigates a square"
-      }
-    ]
+        description: "Create a maze game where the user navigates a square",
+      },
+    ],
   },
   {
     id: 10,
@@ -616,62 +617,62 @@ export const categories: Category[] = [
         id: 91,
         title: "Scroll Progress",
         emoji: "📊",
-        description: "Add a progress bar that fills as the user scrolls down"
+        description: "Add a progress bar that fills as the user scrolls down",
       },
       {
         id: 92,
         title: "Light Bulb",
         emoji: "💡",
-        description: "Create a light bulb that turns on and off with a button"
+        description: "Create a light bulb that turns on and off with a button",
       },
       {
         id: 93,
         title: "Typing Speed",
         emoji: "⌨️",
-        description: "Implement a 'typing speed' tester"
+        description: "Implement a 'typing speed' tester",
       },
       {
         id: 94,
         title: "Resizable Box",
         emoji: "🔲",
-        description: "Make a draggable, resizable box"
+        description: "Make a draggable, resizable box",
       },
       {
         id: 95,
         title: "Virtual Piano",
         emoji: "🎹",
-        description: "Create a simple virtual piano with keypress sounds"
+        description: "Create a simple virtual piano with keypress sounds",
       },
       {
         id: 96,
         title: "Weather Widget",
         emoji: "🌦️",
-        description: "Build a weather widget that displays dummy data"
+        description: "Build a weather widget that displays dummy data",
       },
       {
         id: 97,
         title: "Rocket Launch",
         emoji: "🚀",
-        description: "Animate a rocket launching into the sky"
+        description: "Animate a rocket launching into the sky",
       },
       {
         id: 98,
         title: "Fish Tank",
         emoji: "🐠",
-        description: "Add a fish tank with swimming fish"
+        description: "Add a fish tank with swimming fish",
       },
       {
         id: 99,
         title: "Following Eyes",
         emoji: "👀",
-        description: "Create a 'follow me' effect with animated eyes"
+        description: "Create a 'follow me' effect with animated eyes",
       },
       {
         id: 100,
         title: "Birthday Animation",
         emoji: "🎉",
-        description: "Make a 'Happy Birthday' animation with balloons and text"
-      }
-    ]
-  }
+        description: "Make a 'Happy Birthday' animation with balloons and text",
+      },
+    ],
+  },
 ];

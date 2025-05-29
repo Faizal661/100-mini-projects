@@ -6,9 +6,8 @@ const HomePage = () => {
   return (
     <div className="min-h-screen bg-transparent">
       {/* under construction indication */}
-      <div className="bg-red-50 py-2 text-center text-xl text-red-500 font-semibold capitalize">
+      <div className="bg-red-50 py-3 text-center text-xl text-red-500 font-semibold capitalize">
         <p className="animate-bounce">this page is currently under construction.</p>
-        <p className="text-green-800 text-xl animate-bounce">please come back later  </p>
       </div>
       <MeteorBackground />
       <div className="container mx-auto px-4 py-8">

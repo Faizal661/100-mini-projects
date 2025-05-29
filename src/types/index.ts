@@ -3,6 +3,7 @@ export interface Project {
     title: string;
     emoji: string;
     description: string;
+    completed?:boolean;
   }
   
   export interface Category {
