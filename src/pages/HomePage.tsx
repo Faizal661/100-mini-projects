@@ -1,4 +1,4 @@
-import { categories } from "../data/projects";
+import { categories } from "../assets/data/projects";
 import { CategoryCard } from "../components/CategoryCard";
 import MeteorBackground from "../components/MeteorBackground";
 
@@ -6,9 +6,10 @@ const HomePage = () => {
   return (
     <div className="min-h-screen bg-transparent">
       {/* under construction indication */}
-      <div className="bg-red-50 py-3 text-center text-xl text-red-500 font-semibold capitalize">
+      <div className="py-3 text-center text-xl text-red-500 font-semibold capitalize">
         <p className="animate-bounce">this page is currently under construction.</p>
       </div>
+
       <MeteorBackground />
       <div className="container mx-auto px-4 py-8">
         <div className="text-center mb-12">

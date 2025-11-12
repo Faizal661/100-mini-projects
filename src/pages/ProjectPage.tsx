@@ -2,14 +2,15 @@
 
 import { useParams, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { categories } from "../data/projects";
+import { categories } from "../assets/data/projects";
 import type { Project } from "../types";
 import MeteorBackground from "../components/MeteorBackground";
 import { ArrowLeft } from "lucide-react";
 
 // Import project components
-import BouncingBall from "../projects/BouncingBall";
-import LikedEmojiPost from "../projects/LikedEmojiPost";
+import BouncingBall from "../components/projects/BouncingBall";
+import LikedEmojiPost from "../components/projects/LikedEmojiPost";
+import CircleGenerate from "../components/projects/CircleGenerate";
 
 const ProjectPage = () => {
   const { id } = useParams();
@@ -36,11 +37,13 @@ const ProjectPage = () => {
     if (!project) return null;
 
     switch (project.id) {
-      case 1: 
+      case 1:
         return <LikedEmojiPost />;
-      case 41: 
+      case 11:
+        return <CircleGenerate
+         />;
+      case 41:
         return <BouncingBall />;
-      // Add more cases for other projects
       default:
         return (
           <div className="text-center p-8 bg-slate-800 rounded-lg">

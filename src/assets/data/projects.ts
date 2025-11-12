@@ -1,4 +1,4 @@
-import { Category } from "../types";
+import { Category } from "../../types";
 
 export const categories: Category[] = [
   {
@@ -79,6 +79,7 @@ export const categories: Category[] = [
         title: "Click Circle",
         emoji: "🎯",
         description: "Generate a circle at the mouse click position",
+        completed:true
       },
       {
         id: 12,
